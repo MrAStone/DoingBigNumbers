@@ -6,11 +6,11 @@ namespace DoingBigNumbers
         static void Main(string[] args)
         {
             BigInteger n = 1;
-            for(int i = 1; i <= 100; i++)
+            for(int i = 1; i <= 171; i++)
             {
                 n = BigInteger.Multiply(n, i);
             }
-            Console.WriteLine(n.ToString());
+            Console.WriteLine(n.ToString()); // 171!
         }
     }
 }
